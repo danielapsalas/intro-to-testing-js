@@ -4,5 +4,6 @@ function helloWorld() {
 }
 
 function sayHello() {
-
+    expect(typeof sayHello()).toBe("string");
+    return "";
 }
